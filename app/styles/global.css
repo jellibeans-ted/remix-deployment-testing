@@ -1,0 +1,59 @@
+body {
+  @apply font-sans;
+}
+
+h1 {
+  @apply text-64 font-semibold text-black leading-1.1;
+}
+
+h2 {
+  @apply text-5xl font-semibold text-black leading-1.1;
+}
+
+h3 {
+  @apply text-40 font-semibold text-black leading-tight;
+}
+
+h4 {
+  @apply text-32 font-semibold text-black leading-1.3;
+}
+
+h5 {
+  @apply text-xl font-semibold text-black leading-1.3;
+}
+
+.body1 {
+  @apply text-2xl font-normal text-black leading-1.3;
+}
+
+.body1-medium {
+  @apply text-base font-light text-black leading-normal;
+}
+
+.body2 {
+  @apply text-xl font-normal text-black leading-1.3;
+}
+
+.body3 {
+  @apply text-base font-semibold text-black leading-1.3;
+}
+
+/* scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+/*# sourceMappingURL=global.css.map */
